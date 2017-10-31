@@ -23,6 +23,7 @@ function checkForChange() {
   }
   
   var text = html.substring(indices[1], indices[2]);
+  //this is a great code
   
   //checks if the extracted html contains the find string
   if(text.indexOf(find) != -1){

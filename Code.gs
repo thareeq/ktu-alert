@@ -10,7 +10,7 @@ function init() {
 function checkForChange() {
   
   //The string to search for
-  var find = 'S3';
+  var find = 'S4';
   
   var url = 'https://ktu.edu.in/eu/core/announcements.htm';
   var html = UrlFetchApp.fetch(url).getContentText();
